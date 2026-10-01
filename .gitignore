@@ -1,0 +1,18 @@
+# Secrets and credentials — never commit these
+.env
+.mcp.json
+token.json
+*.token.json
+client_secret*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# macOS
+.DS_Store

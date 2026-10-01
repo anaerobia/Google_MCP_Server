@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-calendar": {
+      "command": "uv",
+      "args": ["--directory", "/absolute/path/to/Google_MCP_Server", "run", "gcal-mcp"],
+      "env": {
+        "GOOGLE_OAUTH_CLIENT_ID": "your-client-id.apps.googleusercontent.com",
+        "GOOGLE_OAUTH_CLIENT_SECRET": "your-client-secret"
+      }
+    }
+  }
+}
